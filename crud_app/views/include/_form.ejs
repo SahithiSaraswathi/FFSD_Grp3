@@ -1,0 +1,41 @@
+<!-- form handling -->
+ <form action="/api/users" method="POST" id="add_user"> 
+    
+    <div class="new_user">
+        <div class="form-group">
+            <label for="name" class="text-light">Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="Mark Stoenis">
+        </div>
+        <div class="form-group">
+            <label for="Email" class="text-light">Email</label>
+            <input type="text" name="email" value="" placeholder="example@gmail.com">
+        </div>
+        <div class="form-group">
+            <label for="username" class="text-light">UserName</label>
+           
+            <input type="text" name="username" value="" placeholder="Mark__Stoenis">
+        </div>
+        <!-- <div class="form-group">
+            <label for="phone" class="text-light">Contact no</label>
+          
+            <input type="text" name="phone" id="phone" pattern=[0-9]{10} value="" placeholder="Mobile number">
+        </div> -->
+        <!-- <div class="form-group">
+            <label for="passkey" class="text-light">Password</label>
+            
+            <input type="text" name="passkey"  value="" placeholder="Password">
+            <span class="passkey-icon" data-display-passkey="off"><i class="fas fa-eye"></i>  </span>
+        </div>
+            <div class="form-group">
+            <label for="med" class="text-light">Medical History</label>
+    
+            <input type="text" name="med"  value="" placeholder="Medical history">
+        </div> -->
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
